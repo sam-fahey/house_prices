@@ -11,7 +11,9 @@ The training and testing data each consist of roughly 1500 recent house sales in
 ## Analysis
 
 ### Lasso Regression
-include plot
+
+![Lasso results](Lasso.png)
+
 ### Random Forest Regression
 include plot
 ### Lasso + Random Forest
