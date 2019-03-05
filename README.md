@@ -10,11 +10,18 @@ The training and testing data each consist of roughly 1500 recent house sales in
 
 ## Analysis
 
+![Price versus feature](Price_v_Feats.png)
+
 ### Lasso Regression
 
 ![Lasso results](Lasso.png)
 
 ### Random Forest Regression
-include plot
+
+![RandomForest results](RandomForest.png)
+
 ### Lasso + Random Forest
-include plot
+
+I found that the Lasso regression outperformed RandomForest; however, around the center of the price distribution, RandomForest was competetive or more accurate. For houses predicted in the central 60% of the training distribution, the predicted price is the average of Lasso and RandomForest predictions. Otherwise, only the Lasso prediction is used.
+
+![Combined results](Final.png)
